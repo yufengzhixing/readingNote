@@ -1,2 +1,3 @@
 1.华为李航：NLP 有 5 个基本问题，深度学习有4个做得很好 （PPT）| 北大AI公开课 链接：http://mt.sohu.com/it/d20170419/134964968_473283.shtml
 2.tensorflow的程序中,在main函数下,都是使用tf.app.run()来启动 参考链接：http://blog.csdn.net/lujiandong1/article/details/53262612 和 https://github.com/tensorflow/tensorflow/blob/9dc6c17797c065796603d9259b2aa57b3c07ff71/tensorflow/python/platform/app.py#L31-L48
+3.TensorFlow初学者在使用过程中可能遇到的问题及解决办法 
