@@ -11,3 +11,11 @@ with tf.Session(graph=my_graph) as sess:
     op = tf.add(x,y)
     result = sess.run(fetches=op)
     print(result)
+2.tensorflow版本更新调研
+（1）添加了新的Python 3 Docker图像。
+（2）使pip包兼容pypi。TensorFlow现在可以通过 [pip install tensorflow] 命令安装。
+（3）更改了几个python API的调用方式，使其更类似 NumPy。
+（4）新的（实验版）Java API。
+（5）Android：全新人物检测+跟踪演示实现——“Scalable Object Detection using DNN”（带有额外的YOLO对象检测器支持）。
+（6）Android：全新基于摄像头的图像风格转换演示，使用了神经网络艺术风格转换技术。
+（7）　重大 API 变动
