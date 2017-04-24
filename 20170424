@@ -1,0 +1,13 @@
+1.tensorflow学习
+在 TensorFlow 中的每一个计算都表示为数据流图，这个图有两类元素：
+    一类 tf.Operation，表示计算单元
+    一类 tf.Tensor，表示数据单元
+
+import tensorflow as tf
+my_graph = tf.Graph()
+with tf.Session(graph=my_graph) as sess:
+    x = tf.constant([1,3,6]) 
+    y = tf.constant([1,1,1])
+    op = tf.add(x,y)
+    result = sess.run(fetches=op)
+    print(result)
