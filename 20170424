@@ -19,4 +19,4 @@ with tf.Session(graph=my_graph) as sess:
 （5）Android：全新人物检测+跟踪演示实现——“Scalable Object Detection using DNN”（带有额外的YOLO对象检测器支持）。
 （6）Android：全新基于摄像头的图像风格转换演示，使用了神经网络艺术风格转换技术。
 （7）　重大 API 变动
-3.神经网络：https://my.oschina.net/magicly007/blog/856349
+3.所有人都能学会用Python写出RNN-LSTM代码：https://my.oschina.net/magicly007/blog/856349
