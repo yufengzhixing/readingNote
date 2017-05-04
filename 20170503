@@ -1,6 +1,6 @@
 1.新浪微博 ChatbotsChina
 如何让人工智能助理杜绝“智障”：http://weibo.com/ttarticle/p/show?id=2309404095426365125977#related
-2.
+2.gensim 安装
 1)安装依赖库：
 
     Python >= 2.6. Tested with versions 2.6, 2.7, 3.3 and 3.4. Support for Python 2.5 was discontinued starting gensim 0.10.0; if you must use Python 2.5, install gensim 0.9.1.
@@ -22,3 +22,4 @@ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython
 
 
 Gensim is very powerful!!!!!
+3.中文维基百科语料上的Word2Vec实验 链接：http://blog.csdn.net/yangyangrenren/article/details/56286394
